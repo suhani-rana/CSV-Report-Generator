@@ -1,9 +1,21 @@
 # CSV Report Generator
 
-This project reads a CSV file and generates a summary report automatically.
+## Overview
+This project reads a CSV file and generates a simple text summary report automatically.
 
-## Output
-- report.txt
+## Features
+- Reads `posts.csv`
+- Generates a summary report with total records and sample rows
+- Saves output as `report.txt`
+
+## Tech Stack
+- Python
+- CSV (built-in)
 
 ## How to Run
-python app.py
+1. Place `posts.csv` in the same folder as `app.py`
+2. Run the script:
+   python app.py
+
+## Output
+- `report.txt` file will be generated in the same folder.
